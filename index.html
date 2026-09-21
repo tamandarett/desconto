@@ -512,10 +512,6 @@
             const target = document.getElementById(tabId);
             target.classList.add('active');
             btn.classList.add('active');
-
-            setTimeout(() => {
-                target.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            }, 50);
         }
 
         function maskCurrency(input) {
